@@ -1,8 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
 
 export const Header = () => {
     return (
-        <header>
+        <StyledHeader>
             <a href="">
                 <img src="" alt=""/>
             </a>
@@ -26,6 +27,10 @@ export const Header = () => {
                     </li>
                 </ul>
             </nav>
-        </header>
+        </StyledHeader>
     );
 };
+
+const StyledHeader = styled.header `
+    background-color: #d4ffd3;
+`
