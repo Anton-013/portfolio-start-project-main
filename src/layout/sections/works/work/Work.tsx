@@ -71,7 +71,7 @@ const ImageWrapper = styled.div`
 
         &::before {
             width: 100%;
-            height: 100%;
+            height:
         }
     }
 
