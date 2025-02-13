@@ -30,6 +30,8 @@ const StyledHeaderMenu = styled.nav`
         gap: 30px;
         justify-content: center;
     }
+
+    
 `
 
 const Link = styled.a`
