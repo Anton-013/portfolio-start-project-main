@@ -3,6 +3,7 @@ import styled from "styled-components";
 import photo from "../../../assets/images/photo.jpg";
 import { Container } from "../../../components/Container";
 import { FlexWrapper } from "../../../components/FlexWrapper";
+import { font } from "../../../styles/Common";
 import { theme } from "../../../styles/Theme";
 
 export const Main = () => {
@@ -68,9 +69,10 @@ const MainTitle = styled.h1`
 `
 
 const Name = styled.h2`
-    font-family: "Jisefin Sans", sans-serif;
-    font-weight: 700;
-    font-size: 50px;
+    ${font({family: '"Jisefin Sans", sans-serif', weight: 700, Fmax: 50, Fmin: 36})}
+    // font-family: "Jisefin Sans", sans-serif;
+    // font-weight: 700;
+    // font-size: 50px;
     letter-spacing: 0.05em;
     margin: 10px 0;
 
