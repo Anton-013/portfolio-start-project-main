@@ -30,6 +30,6 @@ const StyledTetimony = styled.section`
     min-height: 50vh;
 
     ${IconWrapper} {
-        margin: 42px 0 72px;
+        margin: 28px 0 72px;
     }
 `
