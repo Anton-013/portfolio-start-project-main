@@ -9,7 +9,7 @@ import { S } from "../skills/Skills_Styles";
 
 export { };
 
-export const Testimony = () => {
+export const Testimony: React.FC = () => {
     return (
         <StyledTetimony>
             <Container>
