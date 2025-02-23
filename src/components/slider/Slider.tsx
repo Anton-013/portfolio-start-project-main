@@ -4,7 +4,7 @@ import { S } from "./Slider_Styles";
 
 export {};
 
-export const Slider = () => {
+export const Slider: React.FC = () => {
     return (
         <S.Slider>
             <FlexWrapper>
