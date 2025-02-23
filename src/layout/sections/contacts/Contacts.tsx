@@ -6,7 +6,7 @@ import { S } from "./Contacts_Styles";
 
 export { };
 
-export const Contact = () => {
+export const Contact: React.FC = () => {
     return (
         <S.Contacts>
             <Container>
