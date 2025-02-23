@@ -3,6 +3,7 @@ import { Container } from "../../../components/Container";
 import { FlexWrapper } from "../../../components/FlexWrapper";
 import { SectionTitle } from "../../../components/SectionTitle";
 import { Skill } from "./skill/Skill";
+import { S } from "./Skills_Styles";
 
 export { }
 
@@ -41,7 +42,7 @@ const skillData = [
 
 export const Skills = () => {
     return (
-        <StyledSkills>
+        <S.Skills>
             <Container>
                 <SectionTitle>My Skills</SectionTitle>
                 <FlexWrapper wrap={"wrap"} justify={"space-between"}>
@@ -57,10 +58,8 @@ export const Skills = () => {
                 </FlexWrapper>
             </Container>
 
-        </StyledSkills>
+        </S.Skills>
     );
 };
 
-const StyledSkills = styled.section`
-    
-`
+
