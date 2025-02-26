@@ -11,7 +11,7 @@ export { };
 
 export const Testimony: React.FC = () => {
     return (
-        <StyledTetimony>
+        <StyledTetimony id={"testimony"}>
             <Container>
                 <SectionTitle>Testimony</SectionTitle>
                 <FlexWrapper direction={"column"} align={"center"}>
