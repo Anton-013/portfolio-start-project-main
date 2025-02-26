@@ -8,6 +8,8 @@ import { Link } from '../../../components/Link';
 
 
 const Works = styled.section`
+    position: relative;
+    
     ${FlexWrapper} {
         gap: 30px;
     }
